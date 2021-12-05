@@ -1,3 +1,10 @@
+header{
+    background: url(images/Rhône.png)fixed;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding-bottom: 500px;
+    
+}
 #link{
     margin: 0 50px 0 400px;
     box-shadow: -5px 10px 50px 0px rgba(0,0,0,0.68);
