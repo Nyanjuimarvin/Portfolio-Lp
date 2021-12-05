@@ -121,3 +121,10 @@ header{
     margin-top: -15px;
     padding-right: 40px;
 }
+.mount{
+    height: 3000px;
+    background: url(images/mount.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
