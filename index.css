@@ -235,3 +235,7 @@ ul li .wrap1:after {
     height: 700px;
     z-index: 1;
 }
+footer{
+    text-align: center;
+    background: #333b50;
+}
