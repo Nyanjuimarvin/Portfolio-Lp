@@ -1,7 +1,6 @@
 header{
-    background: url(images/Rhône.png)fixed;
-
-background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(images/Rhône.png);
+    background: url(images/Rhône.png)fixed;/*Fallback*/
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(images/Rhône.png);
     background-size: cover;
     background-repeat: no-repeat; 
     padding-bottom: 500px;
@@ -24,3 +23,15 @@ background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 
 .logo img{
     height: 30px;
 }   
+#name h1{
+    font-size: 65px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+#name span{
+    color: #00d646;
+}
+#job{
+    font-size: 24px;
+    color: #d64045;
+}
