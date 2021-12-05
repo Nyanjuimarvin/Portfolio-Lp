@@ -1,159 +1,193 @@
 @font-face {
-  font-family: "Avenir";
-  src: url("../fonts/Avenir.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Avenir.woff") format("woff"),
-    url("../fonts/Avenir.ttf") format("truetype"),
-    url("../fonts/Avenir.svg#Avenir") format("svg");
-}
+    font-family: "Avenir";
+    src: url("../fonts/Avenir.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Avenir.woff") format("woff"),
+        url("../fonts/Avenir.ttf") format("truetype"),
+        url("../fonts/Avenir.svg#Avenir") format("svg");
+    }
 
 header {
-  background: url(images/Rhône.png) fixed; /*Fallback*/
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.6) 0%,
-      rgba(0, 0, 0, 0.6) 100%
-    ),
-    url(images/Rhône.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-bottom: 500px;
+    background: url(images/Rhône.png) fixed; /*Fallback*/
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.6) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+        ),
+        url(images/Rhône.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 500px;
 }
 
 #link {
-  margin: 0 50px 0 400px;
-  box-shadow: -5px 10px 50px 0px rgba(0, 0, 0, 0.68);
-  border-radius: 10px;
-  background: #ede7d7;
+    margin: 0 50px 0 400px;
+    box-shadow: -5px 10px 50px 0px rgba(0, 0, 0, 0.68);
+    border-radius: 10px;
+    background: #ede7d7;
 }
 .links {
-  padding-right: 100px;
+    padding-right: 100px;
 }
 .links li {
-  margin-right: 40px;
+    margin-right: 40px;
 }
 .logo img {
-  height: 30px;
-  filter: invert(65%) sepia(29%) saturate(4313%) hue-rotate(93deg)
-    brightness(96%) contrast(105%);
+    height: 30px;
+    filter: invert(65%) sepia(29%) saturate(4313%) hue-rotate(93deg)
+        brightness(96%) contrast(105%);
 }
 #name h1 {
-  font-size: 65px;
-  font-weight: bolder;
-  color: #ffffff;
+    font-size: 65px;
+    font-weight: bolder;
+    color: #ffffff;
 }
 #name span {
-  color: #00d646;
+    color: #00d646;
 }
 #job {
-  font-family: avenir;
-  font-size: 24px;
-  color: #d64045;
+    font-family: avenir;
+    font-size: 24px;
+    color: #d64045;
 }
 .about {
-  text-align: center;
-  position: absolute;
-  z-index: 2;
-  margin-top: -200px;
-  margin-left: 20%;
-  padding: 150px 50px;
-  background: #333b50;
-  color: #fff;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    margin-top: -200px;
+    margin-left: 20%;
+    padding: 150px 50px;
+    background: #333b50;
+    color: #fff;
 }
 .coffee {
-  padding: 200px;
-  background: url(images/cafe.png) fixed;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
+    padding: 200px;
+    background: url(images/cafe.png) fixed;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 .pro {
-  padding-top: 70px;
+    padding-top: 70px;
 }
 #know {
-  margin-top: 450px;
-  text-align: center;
+    margin-top: 450px;
+    text-align: center;
 }
 #know h2 {
-  font-size: 42px;
-  color: #ffff;
+    font-size: 42px;
+    color: #ffff;
 }
 #know p {
-  font-family: avenir;
-  font-size: 24px;
+    font-family: avenir;
+    font-size: 24px;
 }
 .percent1 p {
-  padding-left: 60px;
+    padding-left: 60px;
 }
 .percent2 p {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 #percent > p,
 #percent1 > p,
 #percent2 > p {
-  font-family: avenir;
-  font-size: 14px;
+    font-family: avenir;
+    font-size: 14px;
 }
 
 .percent :first-child > span:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 500px;
-  height: 8px;
-  background: rgb(3, 114, 27);
-  left: 1px;
-  margin-left: 320px;
-  margin-top: -15px;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 500px;
+    height: 8px;
+    background: rgb(3, 114, 27);
+    left: 1px;
+    margin-left: 320px;
+    margin-top: -15px;
 }
 .percent1 :first-child > span:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 420px;
-  height: 8px;
-  background: rgb(3, 114, 27);
-  left: 1px;
-  margin-left: 320px;
-  margin-top: -15px;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 420px;
+    height: 8px;
+    background: rgb(3, 114, 27);
+    left: 1px;
+    margin-left: 320px;
+    margin-top: -15px;
 }
 .percent2 :first-child > span:after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 220px;
-  height: 8px;
-  background: rgb(3, 114, 27);
-  left: 1px;
-  margin-left: 320px;
-  margin-top: -15px;
-  padding-right: 40px;
+    content: "";
+    position: absolute;
+    display: block;
+    width: 220px;
+    height: 8px;
+    background: rgb(3, 114, 27);
+    left: 1px;
+    margin-left: 320px;
+    margin-top: -15px;
+    padding-right: 40px;
 }
 .mount {
-  height: 3000px;
-  background:linear-gradient( rgba(51, 59, 80, 0.8) 10%, rgba(51, 59, 80, 0.8)100%),url("images/mount.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
+    height: 3000px;
+    background:linear-gradient( rgba(51, 59, 80, 0.8) 10%, rgba(51, 59, 80, 0.8)100%),url("images/mount.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 .mile {
-  padding-top: 500px;
+    padding-top: 500px;
+}
+.mile ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+.mile>ul>li>div{
+    float: left;
+    padding: 15px;
+    text-align: center;
+    background: #fff;
+}
+ul li .wrap1{
+    border-right: 1px solid #000;
+    position: relative;
+    
+}
+ul li .wrap1::after {
+    content: '';
+    position: absolute;
+    bottom: 16px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background: inherit;
+}
+.port{
+    padding-top: 200px;
 }
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  justify-content: center;
-  margin-top: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 330px;
 }
 .box {
-  width: 280px;
-  background: #ede7d7;
-  border-radius: 10px;
-  box-shadow: 5px 7px 5px 4px rgba(0,0,0,0.48);
-  overflow: hidden;
-  text-align: center;
+    width: 280px;
+    background: #ede7d7;
+    border-radius: 10px;
+    box-shadow: 5px 7px 5px 4px rgba(0,0,0,0.48);
+    overflow: hidden;
+    text-align: center;
 }
 .image img {
-  height: 200px;
+    height: 200px;
+}
+.mile h1{
+    text-align: center;
 }
