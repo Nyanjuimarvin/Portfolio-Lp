@@ -59,3 +59,18 @@ header{
     z-index: 1;
     overflow: hidden;
 }
+.pro{
+    padding-top: 70px;
+}
+#know{
+    margin-top: 250px;
+    text-align: center;
+}
+#know p{
+    font-family: avenir;
+    font-size: 24px;
+}
+#percent p{
+    font-family: avenir;
+    font-size: 14px;
+}
