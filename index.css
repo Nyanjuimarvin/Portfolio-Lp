@@ -194,15 +194,27 @@ ul li .wrap1:after {
 .mile h1{
     text-align: center;
 }
+.footcard{
+    position: absolute;
+    margin-top: -270px;
+    background: #333b50;
+    border-radius: 10px;
+    margin-left: 230px;
+    padding: 30px;
+}
 .flex{
     display: flex;
     justify-content: center;
-    gap: 5px 50px;
+    gap: 5px;
+}
+.flex p:last-of-type{
+    text-align: center;
 }
 .contact{
     padding-top: 40px;
 }
 #name{
+    margin-top: 50px;
     padding-bottom: 20px;
 }
 #name :first-child{
