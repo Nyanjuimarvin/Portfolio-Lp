@@ -207,7 +207,7 @@ ul li .wrap1:after {
     justify-content: center;
     gap: 5px;
 }
-.flex p:last-of-type{
+.flex>.forms p:last-of-type{
     text-align: center;
 }
 .contact{
