@@ -194,3 +194,6 @@ ul li .wrap1:after {
 .mile h1{
     text-align: center;
 }
+.flex{
+    display: flex;
+}
