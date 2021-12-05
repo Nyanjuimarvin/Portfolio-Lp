@@ -9,7 +9,7 @@
 header {
   background: url(images/Rhône.png) fixed; /*Fallback*/
   background-image: linear-gradient(
-      to bottom,
+       to bottom,
       rgba(0, 0, 0, 0.6) 0%,
       rgba(0, 0, 0, 0.6) 100%
     ),
@@ -33,6 +33,7 @@ header {
 }
 .logo img {
   height: 30px;
+    filter: invert(65%) sepia(29%) saturate(4313%) hue-rotate(93deg) brightness(96%) contrast(105%);
 }
 #name h1 {
   font-size: 65px;
@@ -129,7 +130,7 @@ header {
 }
 .mount {
   height: 3000px;
-  background: url(images/mount.png);
+  background:linear-gradient( rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5)100%),url("logo/header-background.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -139,12 +140,14 @@ header {
 }
 .projects {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 330px;
 }
 .box {
   width: 280px;
-  margin-top: 360px;
-  background: #333b50;
+  background: #4e5467;
   overflow: hidden;
   text-align: center;
 }
