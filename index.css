@@ -1,0 +1,16 @@
+#link{
+    margin: 0 50px 0 400px;
+    box-shadow: -5px 10px 50px 0px rgba(0,0,0,0.68);
+    border-radius: 10px;
+    background: #ede7d7;
+}
+.links{
+    padding-right: 100px;
+
+}
+.links li{
+    margin-right: 40px;
+}
+.logo img{
+    height: 30px;
+}   
