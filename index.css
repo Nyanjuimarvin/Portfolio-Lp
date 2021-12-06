@@ -34,6 +34,11 @@ h1{
 
 p{
     font-family: avenir light;
+    font-size: 20px;
+}
+
+h5{
+    color: #00d646;
 }
 
 #link {
@@ -129,6 +134,7 @@ p{
   font-family: avenir;
   font-size: 24px;
   font-weight: lighter;
+  color: #fff;
 }
 
 .percent1 p {
@@ -232,6 +238,10 @@ p{
   text-align: center;
 }
 
+.mile>ul>li>div>p , h6{
+    color: #ffff;
+}
+
 ul li .wrap1 {
   border-right: 2px solid #00d646;
   position: relative;
@@ -294,6 +304,7 @@ ul li .wrap1:after {
 
 .contact {
   padding-top: 40px;
+  color: #ffff;
 }
 
 #mail {
@@ -325,6 +336,10 @@ input {
   padding: 10px;
 }
 
+.forms :last-child{
+    color: #00d646;
+}
+
 .book {
   background: url(images/download.png) fixed;
   background-repeat: no-repeat;
@@ -337,4 +352,5 @@ footer {
   display: flex;
   gap: 270px;
   background: #333b50;
+  color: #ffff;
 }
