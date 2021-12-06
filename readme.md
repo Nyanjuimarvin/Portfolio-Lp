@@ -1,10 +1,10 @@
-## MY PORTFOLIO
-# Description
+# MY PORTFOLIO
+## Description
 This is a landing page to showcase various projects i have worked on as well as my skills,background,hobbies and interests
-# TECHNOLOGIES USED
+## TECHNOLOGIES USED
 The page is written in pure HTML with an addition of a cascading style sheet(CSS).Some of the techniques used are floats and flex.In addition to CSS, bootstrap is incorporated to make the page responsive
 
-# SET-UP
+## SET-UP
 The page can be viewed by clicking the attached Github pages link on the top right corner.
 
 ## Authors
